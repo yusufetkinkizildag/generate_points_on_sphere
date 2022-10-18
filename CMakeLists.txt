@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.0.2)
+project(generate_points_on_sphere)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+set(CMAKE_BUILD_TYPE Release)
+add_compile_options(-std=c++17 -Wpedantic)
+add_executable(generate_points_on_sphere src/generate_points_on_sphere.cpp)
